@@ -1,0 +1,19 @@
+# 1.
+only one item is stored because p1 and p2 are considered equal and have the same hash,
+so the second entry replaces the first
+
+
+# 2.
+hash collision happens when two different objects have the same hash
+it won’t happen here because objects that have the same hash are also equal
+( __eq__ returns True )
+
+
+# 3.
+reference counting tracks how many variables point to an object
+ when the count reaches zero, the GC removes the object from memory
+
+
+
+
+
